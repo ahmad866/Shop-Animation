@@ -1,0 +1,217 @@
+.navbar {
+  background-color: rgba(0,0,0,0,00);
+  z-index: 1000
+}
+.navbar .navbar-brand {
+  color: #fafdfd;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar .navbar-text {
+  color: #fafdfd;
+}
+.navbar .navbar-text a {
+  color: #ffffff;
+}
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+  color: #ffffff; 
+}
+.navbar .navbar-nav .nav-link {
+  color: #fafdfd;
+  border-radius: .25rem;
+  margin: 0 0.25em;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+  color: #ffffff;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+  color: #ffffff;
+  background-color: #f01042;
+}
+.navbar .navbar-toggle {
+  border-color: #f01042;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+  background-color: #f01042;
+}
+.navbar .navbar-toggle .navbar-toggler-icon {
+  color: #fafdfd;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+  border-color: #fafdfd;
+}
+.navbar .navbar-link {
+  color: #fafdfd;
+}
+.navbar .navbar-link:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 575px) {
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #fafdfd;
+  }
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #ffffff;
+  }
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ffffff;
+    background-color: #f01042;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #fafdfd;
+  }
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #ffffff;
+  }
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ffffff;
+    background-color: #f01042;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #fafdfd;
+  }
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #ffffff;
+  }
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ffffff;
+    background-color: #f01042;
+  }
+}
+
+@media (max-width: 1199px) {
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #fafdfd;
+  }
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #ffffff;
+  }
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ffffff;
+    background-color: #f01042;
+  }
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+  color: #fafdfd;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+  color: #ffffff;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+  color: #ffffff;
+  background-color: #f01042;
+}
+
+html;
+body,
+.carousel,
+.carousel-inner,
+.carousel-inner .item{
+  height: 100%;
+}
+.carousel-caption{
+  top: 30%;
+  bottom: auto;
+}
+.heading{
+  font-size: 60px; 
+  text-shadow: 2px 2px #ff0e3d;
+}
+.sub-heading{
+  font-size: 30px; 
+  text-shadow: 2px 2px #ff0e3d;
+}
+
+.bg-gray{
+  background-color: lightgray;
+}
+.bg-pink{
+  background-color: deeppink;
+  color :white;
+}
+.icon-text{
+   text-align: center;
+   margin: 20px auto;
+   font-size: 30px;
+}
+
+.card{
+  text-align: center;
+  border: none;
+}
+.card-heading{
+    font-size: 25px;
+    font-weight: 600;
+    color: deeppink;
+}
+.btn-pink{
+  background-color: deeppink;
+  transition: .5s; 
+}
+.btn-pink:hover{
+  background-color:#3a3a3a;
+}
+.card-img-top:hover{
+  transform: scale(1.2);
+  transition: 1s;
+
+}
+.bc{
+  text-shadow: 2px 2px #ff0e3d;
+  background-image: url("1.jpg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top center;
+}
+.inner-text{
+  padding:30px 0; 
+}
+.footer-img{
+  display: block;
+   margin: 10px auto;
+}
+.footer-heading{
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: deeppink;
+}
+.footer-list{
+  list-style-type: none;
+  padding-left: 0;
+}
+.footer-list >li >a {
+color: white;
+text-decoration: none;
+
+}
+
+
+
+
+
